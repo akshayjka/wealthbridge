@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="main-title">
+                <h2 class="text-capitalize text-center">Our Clients</h2>
+            </div>
+        </div>
+    </div>
+  <div class="row">
+    <div class="col-12">
+        <div id="carouselExampleAutoplaying" class="carousel slide"  data-bs-ride="carousel" >
+            <div class="carousel-inner" >
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="\assets\clients\6.jpg" class="d-block w-50 " alt="...">
+              </div>
+
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="\assets\clients\2.png" class="d-block w-50 " alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="\assets\clients\3.png" class="d-block w-50" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- testimonial section start-->
+
+<!-- testimonial section end-->
+
+
+<owl-carousel-o [options]="testimonialCarouselOptions" class="testimonial-slider">
+    <ng-container carousel-item active *ngFor="let user of users">
+        <ng-template carouselSlide class="item">
+            <div class="testimonial-container wecode-products m-0">
+                <div class="d-flex mx-auto d-block">
+                    <div class="center-content mx-auto d-block">
+                        <!-- <h6 class="name">{{user.name}}</h6>
+                        <h6 class="post font-primary">{{user.designation}}</h6> -->
+                        <img [src]="user.img" alt="" >
+                    </div>
+                </div>
+                <!-- <div class="testimonial-info">
+                    <p class="m-b-20 para2">{{user.review}}</p>
+                    <div class="primary-border"></div>
+                </div> -->
+        </div>
+        </ng-template>
+    </ng-container>
+</owl-carousel-o>

@@ -1,0 +1,181 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url('/assets/newimages/counter-background.png');
+}
+.about-us {
+    height: 200px;
+    // height: 1%;
+    background-image: url('/assets/newimages/counter-background.png');
+    background-size: cover;
+}
+.about-us:hover {
+    transform: scale(1.02);
+    background-color: #c8b36d ;
+    transition: background-color 3s ease;
+    cursor: pointer;
+}
+.h1 {
+    font-weight: 500;
+}
+.background {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // width: 90%;
+    height: 1%;
+    background-image: url('/assets/newimages/counter-background.png');
+    background-size: cover; /* Adjust as needed, e.g., 'contain' */
+}
+.hero {
+    // background-color: #c8b36d;
+    // color: #c8b36d;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+.example-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Create a subtle shadow effect */
+    transition: transform 0.2s;
+    background-color: #fff; /* Set card background color */
+    border-radius: 10px; 
+    position: static;
+    // height: 400px;
+}
+.example-card2 {
+    height: 450px;
+}
+.example-card:hover {
+    // transform: scale(1.05);
+    // transform: translateY(-5px);
+    cursor: pointer;
+
+}
+.example-card1:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-image: url('/assets/newimages/counter-background.png');
+    background-color: #c8b36d;
+    transition: background-color 2s ease;
+    .para2 {
+        font-weight: 400;
+    }
+}
+
+.para {
+    line-height:1.6;
+    padding: 10px;
+    font-size: 20px;
+}
+.para1 {
+    font-weight: 500;
+}
+.button {
+    position: static;
+}
+.para2 {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 10px;
+}
+.image {
+    width: 70px;
+}
+
+// .content {
+//     display: flex;
+//     flex-direction: column;
+//     // align-items: center;
+//     padding: 40px 0;
+// }
+
+.left {
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.right {
+    max-width: 500px;
+    /* Add styles for images or graphics */
+}
+
+.left h2 {
+    font-size: 2rem;
+}
+
+.left p {
+    font-size: 1.2rem;
+}
+
+
+
+/* Add more styles for images or graphics if needed */
+
+
+
+
+/* Style for the video container */
+.video-container {
+    position: relative;
+    // width: 100%;
+    // height: 100vh; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Style for the video element */
+  video {
+    width: 100%;
+    // height: 50%;
+    height: 420px;
+    object-fit: cover; /* Ensure the video covers the entire container */
+  }
+
+  .example-card {
+    height: 320px;
+  }
+  
+  /* Style for the content container */
+  .content {
+    position: absolute;
+    width: 370px;
+    // top: 1px;
+    bottom: 1px; /* Vertically center the content */
+    // left: 10%; /* Horizontally center the content */
+    // transform: translate(-50%, -50%); /* Center the content precisely */
+    // background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0,0,0,0.1); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    // color: #fff;
+    color:white
+    /* Text color for content */
+  }
+  .head {
+   margin-left: 100px;
+   font-size: 26px;
+   font-weight: 500;
+    // translate: ;
+  }
+  .head1 {
+    font-weight: 700;
+    margin-left: 70px;
+  }
+  .content:hover {
+    background-color: black;
+    transition: background-color 2s ease;
+  }
+  

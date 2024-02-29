@@ -1,0 +1,54 @@
+.card-text {
+    padding: 8px;
+    font-size: medium;
+}
+
+.card {
+    border: 1px solid black;
+    position: static;
+    // margin-left: 5px;
+}
+
+// #bg1 {
+//     background-color: #ffdbb7;
+// }
+// #bg1 {
+//     background-color:
+//         #ffdb99;
+// }
+
+#bg1 {
+    background-color: #daebdc;
+}
+
+.list {
+    margin-left: 15px;
+    list-style: none;
+}
+
+#hd1 {
+    margin-top: 15px;
+    // color: #674ea7;
+    // color: #5b5b5b;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+#heading {
+    font-size: large;
+}
+
+.p {
+    display: none;
+}
+.container-fluid{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    // position: static;
+    // height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}

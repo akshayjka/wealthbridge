@@ -1,0 +1,188 @@
+<div class="container">
+    <div class="row">
+        <div>
+            <mat-card>
+                <mat-card-title>
+                    <h1 class="head">
+                       <img class="image" src="\assets\icon-image\image8.4.png" alt=""> Frequently Asked Questions</h1>
+                </mat-card-title>
+                <mat-card-content>
+                    <!-- <p>What is bookkeeping?</p>
+
+                    <p>The process of creating financial statements like balance sheets and income statements and
+                        keeping track of financial transactions is known as online bookkeeping. A bookkeeper would
+                        ensure that staff members were properly managing payroll and daily documenting invoices and
+                        expenses.
+
+                    </p> -->
+
+                    <!-- PANEL 1 -->
+                    <mat-accordion>
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                What is bookkeeping?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para">The process of creating financial statements like balance sheets and income
+                            statements and
+                            keeping track of financial transactions is known as online bookkeeping. A bookkeeper would
+                            ensure that staff members were properly managing payroll and daily documenting invoices and
+                            expenses.</p>
+                    </mat-expansion-panel>
+
+                    
+                    <br>
+
+                    <!-- PANEL 2 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                What services does WealthBridge Consulting offer?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para">We provide a range of financial services including Accounting for Hire,
+                            Financial Management & Consultancy, Business Analysis & Forecasting, Tax Consultation &
+                            Compliance, and Software Migration & Implementation.</p>
+                    </mat-expansion-panel>
+                    <br>
+
+                    <!-- PANEL 3 -->
+
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                How can WealthBridge Consulting help my business?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para">We provide a range of financial services including Accounting for Hire,
+                            Financial Management & Consultancy, Business Analysis & Forecasting, Tax Consultation &
+                            Compliance, and Software Migration & Implementation.</p>
+                    </mat-expansion-panel> <br>
+
+                    <!-- PANEL 4 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                Why should I choose WealthBridge Consulting over hiring a full-time accountant?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para">Our flexible Accounting for Hire services provide cost-effective solutions
+                            without the commitment of a full-time employee, saving you time and resources.</p>
+                    </mat-expansion-panel>
+                    <br>
+
+                    <!-- PANEL 5 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                Is WealthBridge Consulting licensed for tax filing?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> While we offer tax consultation and assist in preparing audit documents, tax
+                            filing and compliance are carried out by licensed auditing firms to ensure accuracy and
+                            compliance.</p>
+                    </mat-expansion-panel>
+
+                    <br>
+
+                    <!-- PANEL 6 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                Can WealthBridge Consulting handle software migration and implementation?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> Yes, we specialize in seamless software migration and implementation, ensuring
+                            your transition to modern tools is efficient and effective.</p>
+                    </mat-expansion-panel>
+                    <br>
+
+                    <!-- PANEL 7 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                How experienced is the team at WealthBridge Consulting?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> Our team collectively brings over 45 years of expertise in accounting,
+                            financial management, business consultancy, and software implementation.</p>
+                    </mat-expansion-panel> <br>
+
+                    <!-- PANEL 8 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                What industries does WealthBridge Consulting cater to?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> We serve businesses across various sectors, including retail, manufacturing,
+                            hospitality, and more.</p>
+                    </mat-expansion-panel> <br>
+
+                    <!-- PANEL 9 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                How do I get started with WealthBridge Consulting's services?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para">Simply reach out to us through our contact page, and our team will guide you
+                            through the process tailored to your business needs
+                            .</p>
+                    </mat-expansion-panel> <br>
+
+                    <!-- PANEL 10 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                What is the typical duration of a service engagement?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> Service duration varies based on the nature of the engagement, whether it's a
+                            one-time consultation or an ongoing partnership. Our team will provide specific details
+                            during the initial consultation.
+                        </p>
+                    </mat-expansion-panel> <br>
+
+                    <!-- PANEL 11 -->
+
+                    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+                        <mat-expansion-panel-header>
+                            <mat-panel-title class="faq-head">
+                                How do I contact WealthBridge Consulting for more information?
+                            </mat-panel-title>
+                        </mat-expansion-panel-header>
+                        <mat-divider></mat-divider> <br>
+                        <p class="para"> You can contact us through the provided phone number or email address on our
+                            website, or you can fill out the inquiry form, and our team will get back to you promptly.
+                        </p>
+                    </mat-expansion-panel> <br>
+
+                </mat-accordion>
+
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,146 @@
+.contain{
+    // overflow-x: hidden;
+    // height: 110px;
+    // background-color: #ffecb2;
+    // position: absolute;
+    position: fixed;
+    z-index: 3;
+    // position: sticky;
+    // display: flex;
+    width: 100%;
+    // overflow-y:hidden;
+
+}
+.button {
+  background-color: black;
+}
+mat-toolbar{
+    height: 120px;
+    background-color: #061a1e;
+    overflow-x: hidden;
+    position: relative;
+    // background-color: red;
+}
+
+.heading1{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+  //   color:#B4D6ED;
+//   color: #FAE089;
+color: #c8b36d;
+//   padding: 15px;
+}
+.heading2{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+  //   color:#B4D6ED;
+//   color: #A7E6A4;
+    // color:#85b883;
+    color: #c8b36d;
+  padding-left: 35px;
+}
+.sub-heading-1{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 1000;
+    color:#85b883;
+    color: white;
+}
+
+.sub-heading-2 {
+  overflow-x: hidden;
+  width: 260px;
+  // background-color: #0056b3;
+}
+.sub-heading-2:hover{
+  // display: none;
+overflow: hidden;
+//  color: warn;
+// color:#85b883;
+
+// transform:scale(1.01) ;
+ 
+
+}
+.sub-heading-1:hover .sub-heading-2{
+display: block;
+}
+img{
+    height:60px;
+}
+.buttons1:hover{
+  // background-color: #0056b3;
+  background-color: #9993ab;
+  // transform: scale(1.05);
+}
+
+button .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-content {
+  background-color: #0056b3;
+  width: 200px;
+}
+// DROPDOWN CSS
+
+/* Dropdown Button Style */
+/* Dropdown Button Style */
+.dropdown-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Dropdown Button Hover Effect */
+.dropdown-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px); /* Add a subtle lift effect */
+}
+
+/* Dropdown Content Style */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s, transform 0.3s;
+  z-index: 1; /* Ensure dropdown is above other content */
+}
+
+/* Dropdown Content Show Effect */
+.dropdown-content.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.1s; /* Delay the transition for a smoother effect */
+}
+
+/* Dropdown Links Style */
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+/* Dropdown Link Hover Effect */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}

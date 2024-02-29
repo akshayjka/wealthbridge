@@ -1,0 +1,34 @@
+/* Styles for the table container */
+.table-container {
+  background-image: url('/assets/businesspeople-meeting-plan-analysis-graph-company-finance-strat.jpg');
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff; /* Change text color to white for better visibility */
+}
+
+/* Styles for the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ffffff; /* Change border color to match your design */
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ffffff; /* Change border color to match your design */
+}
+
+/* Style the table header row */
+thead tr {
+  background-color: #333333; /* Change the background color of the header row */
+}
+
+/* Style alternating rows */
+tbody tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.2); /* Change the background color of even rows */
+}
+
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.4); /* Change the background color on hover */
+}

@@ -1,0 +1,111 @@
+<div class="contain" [ngClass]="{'scrolling-down': scrollingDown}">
+  <div class="row">
+    <div class="col-12">
+      <mat-toolbar>
+        <button class="btn button" (click)="goto()"><img src="\assets\Screenshot 2023-07-16 001120.png" alt="">
+        </button>
+
+
+        <div class="container">
+          <div class="row">
+            <div class=" col-6">
+              <div class="heading1">WealthBridge </div>
+              <div class="heading2">Consultancy</div>
+            </div>
+            <div class="col-6">
+              <!-- <div class="sub-heading-1">Service</div>
+                    <button mat-stroked-button color="accent">Accent</button> -->
+              <div class="example-button-row">
+             
+                <!-- <button mat-stroked-button color="warn" [matMenuTriggerFor]="aboveMenu" class=" sub-heading-1">Service
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                  </svg>
+                </button> -->
+
+                <button mat-stroked-button color="warn" [matMenuTriggerFor]="menu" class="sub-heading-1" #menuTrigger="matMenuTrigger"
+                  (mouseenter)="menuTrigger.openMenu()">Service <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                </svg></button>
+
+                  <mat-menu   #menu="matMenu" [overlapTrigger]="false">
+                    <span class="menu-content" (mouseleave)="menuTrigger.closeMenu() ">
+                      <div class="buttons1">
+                        <button class="sub-heading-2" mat-menu-item (click)="goto1()"><mat-icon>account_circle</mat-icon>Accounting for Hire</button>
+                      </div>
+                      <mat-divider></mat-divider>
+                      <div class="buttons1">
+                        <button class="sub-heading-2" mat-menu-item (click)="goto2()"><mat-icon> business</mat-icon>Business Analysis</button>
+                      </div>
+                    <mat-divider></mat-divider>
+                    <div class="buttons1">
+                      <button class="sub-heading-2" mat-menu-item (click)="goto3()"><mat-icon>account_balance</mat-icon>Financial Management</button>
+                    </div>
+                    <mat-divider></mat-divider>
+                    <div class="buttons1">
+                      <button class="sub-heading-2" mat-menu-item (click)="goto4()"><mat-icon>developer_mode</mat-icon>Software Migration & Implementation</button>
+                    </div>
+                    <mat-divider></mat-divider>
+                    <div class="buttons1">
+                      <button class="sub-heading-2" mat-menu-item (click)="goto5()"><mat-icon>euro_symbol</mat-icon>Tax Consultation & Compliance</button>
+                    </div>
+                    </span>
+                  </mat-menu>
+                
+                  <!-- <mat-menu class="dropdown-content" #aboveMenu="matMenu" yPosition="above">
+                    <button class="sub-heading-2" mat-menu-item (click)="goto1()">Accounting for Hire</button>
+                    <button mat-menu-item (click)="goto2()">Business Analysis</button>
+                    <button mat-menu-item (click)="goto3()">Financial Management</button>
+                    <button mat-menu-item (click)="goto4()">Software Migration & Implementation</button>
+                    <button mat-menu-item (click)="goto5()">Tax Consultation & Compliance</button>
+                  </mat-menu> -->
+
+                  <button mat-stroked-button color="warn" class="sub-heading-1" [matMenuTriggerFor]="aboveMenu" (click)="goto6()">About Us
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg> -->
+                  </button>
+                  <mat-menu #aboveMenu="matMenu" yPosition="above">
+                    <button mat-menu-item>Item 1</button>
+                    <button mat-menu-item>Item 2</button>
+                  </mat-menu>
+                  <button mat-stroked-button color="warn" class="sub-heading-1" [matMenuTriggerFor]="aboveMenu">Client
+                    Center
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                  </button>
+
+                  <mat-menu #aboveMenu="matMenu" yPosition="above">
+                    <button mat-menu-item>Item 1</button>
+                    <button mat-menu-item>Item 2</button>
+                  </mat-menu>
+                  <button mat-stroked-button color="warn" class="sub-heading-1" [matMenuTriggerFor]="aboveMenu">Careers
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                      <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                  </button>
+                  <mat-menu #aboveMenu="matMenu" yPosition="above">
+                    <button mat-menu-item>Item 1</button>
+                    <button mat-menu-item>Item 2</button>
+                  </mat-menu>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="example-spacer"></span>
+      </mat-toolbar>
+    </div>
+  </div>
+</div>

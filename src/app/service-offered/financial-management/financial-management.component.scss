@@ -1,0 +1,223 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    // overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Style the header */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.icon{
+    height: 40px;
+}
+.icon1{
+    height: 50px;
+}
+
+.header h1 {
+    font-size: 2rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+.icon3 {
+    height: 60px;
+    // width: 40px;
+    padding: 10px;
+}
+.image {
+    height: 180px;
+    // width: 100px;
+}
+.card2 {
+    padding: 10px;
+}
+.para{
+    line-height: 1.6;
+    font-size: 18px;
+}
+.icon2 {
+    height: 50px;
+}
+.icon4 {
+    height: 30px;
+}
+/* Style the hero section */
+#hero {
+    // background-image: url('your-hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the services section */
+#services {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+#services ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#services li {
+    margin-bottom: 20px;
+}
+
+/* Add more CSS styles for other sections as needed */
+
+
+
+///
+/// 
+/// 
+/// 
+/* Reset some default browser styles */
+
+
+.container1 {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    height: 100vh;
+}
+
+.card1{
+    max-width: 1200px;
+  left: 2%;
+  background-image: url('/assets/newimages/counter-background.png');
+}
+.header1 {
+    max-width: 1200px;
+}
+.heading { 
+    text-align: center;
+    // position: static;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    padding-top: 130px;
+    // border: 2px solid black;
+}
+.heading1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.card {
+    perspective: 1000px;
+    width: 300px;
+    height: 280px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.front {
+    // background-color: #007bff;
+    // color: #fff;
+    cursor: pointer;
+}
+
+.back {
+    background-color: #f5f5f5;
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+#last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+/* You can style the card content further as needed */
+
+
+// conculsion 
+
+/* ... previous CSS styles ... */
+
+.conclusion {
+    // background-color: #007bff;
+    // color: #fff;
+    margin-top: 38%;
+    // margin-top: 20px;
+    // position: static;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+}
+.session {
+    margin-top: 22%;
+}
+.session h2 {
+    padding: 20px;
+}
+.session p {
+    line-height: 1.5;
+    padding: 10px;
+}
+// .image2 {
+//     height: 250px;
+// }
+.conclusion h2 {
+    font-size: 2rem;
+}
+
+.conclusion p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+
+
+
+
+/* ... remaining CSS styles ... */
